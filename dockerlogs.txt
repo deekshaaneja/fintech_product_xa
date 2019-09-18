@@ -1,0 +1,12 @@
+Attaching to 
+Attaching to 
+Attaching to xapo_db_1, xapo_app_1
+[36mdb_1   |[0m Initializing database
+[36mdb_1   |[0m 2019-06-09T16:06:23.739417Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mdb_1   |[0m 2019-06-09T16:06:28.051249Z 0 [Warning] InnoDB: New log files created, LSN=45790
+[36mdb_1   |[0m 2019-06-09T16:06:29.385296Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+[36mdb_1   |[0m 2019-06-09T16:06:29.762816Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 8ac6d39e-8ad0-11e9-bb97-0242ac150002.
+[36mdb_1   |[0m 2019-06-09T16:06:29.971804Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+[36mdb_1   |[0m 2019-06-09T16:06:29.972571Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+[33mxapo_app_1 exited with code 0
+[0mGracefully stopping... (press Ctrl+C again to force)

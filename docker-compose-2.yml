@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: currencydb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: admin1234
+      MYSQL_ROOT_PASSWORD: admin1234
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    networks:
+      - front_default
+
+networks:
+  front_default:
+    external:
+      name : my-net
