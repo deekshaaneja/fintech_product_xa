@@ -10,3 +10,17 @@
 ##### Curl Commands to Test:
 ###### 1.grab_and_save
 ###### Positive Test Case:
+`<curl -X POST \
+  http://localhost:9000/grab_and_save \
+  -H 'Accept: */*' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: text/plain' \
+  -H 'Host: localhost:9000' \
+  -H 'Postman-Token: e01a0e5f-5b88-4392-b4e6-5de1176e02ec,ee4ea78b-b7ec-4071-b9db-d2a3db6fa776' \
+  -H 'User-Agent: PostmanRuntime/7.13.0' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'cache-control: no-cache' \
+  -H 'content-length: 35' \
+  -d '{"currency": "AED", "amount": 9000}'
+>`
